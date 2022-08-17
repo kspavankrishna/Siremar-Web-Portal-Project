@@ -14,21 +14,28 @@ Siremar is a Leading Edge Web Portal which Aims to keep a Dynamic count of all r
 Technologies used:
 
 HTML (Hypertext Markup Language)
-	It is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink 	effects on World Wide Web pages.
+	It is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+
 CSS (Cascading Style Sheets)
 	It provides the (visual and aural) layout, for a variety of devices.
+
 ReactJS (React JavaScript)
-	It is a free and open-source front-end JavaScript library for building user interfaces based on UI 	components.
+	It is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+
 PHP (Hypertext Preprocessor)
-	PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a 	daemon or as a Common Gateway Interface (CGI) executable.
+	PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable.
+
 SQL (Structured Query Language)
-	It is used to communicate with a database. According to ANSI (American National Standards 	Institute), it is the standard language for relational database management systems. SQL 	statements are used to perform tasks such as update data on a database or retrieve data from a 	database.
+	It is used to communicate with a database. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database or retrieve data from a database.
+
 WordPress
-	It is a content management system (CMS) written in PHP that uses a MySQL database. In 	non-geek speak, WordPress is the easiest and most powerful blogging and website 	builder in existence today.
+	It is a content management system (CMS) written in PHP that uses a MySQL database. In non-geek speak, WordPress is the easiest and most powerful blogging and website builder in existence today.
+
 Laravel
-	It is a back-end PHP-based and open-source framework used for building a wide range of 	custom web applications. It's an entirely server-side framework that manages data with 	the help of Model-View-Controller (MVC) design which breaks an application back-end 	architecture into logical parts.
+	It is a back-end PHP-based and open-source framework used for building a wide range of custom web applications. It's an entirely server-side framework that manages data with the help of Model-View-Controller (MVC) design which breaks an application back-end architecture into logical parts.
+
 Socket.io
-	It is a library that enables low-latency, bidirectional and event-based communication 	between a client and a server.
+	It is a library that enables low-latency, bidirectional and event-based communication between a client and a server.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
