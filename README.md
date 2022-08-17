@@ -29,7 +29,6 @@ Laravel
 	It is a back-end PHP-based and open-source framework used for building a wide range of 	custom web applications. It's an entirely server-side framework that manages data with 	the help of Model-View-Controller (MVC) design which breaks an application back-end 	architecture into logical parts.
 Socket.io
 	It is a library that enables low-latency, bidirectional and event-based communication 	between a client and a server.
-![image](https://user-images.githubusercontent.com/58327514/185251824-48e3b6bc-66a9-4d74-9b73-dfc7d04135b2.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
