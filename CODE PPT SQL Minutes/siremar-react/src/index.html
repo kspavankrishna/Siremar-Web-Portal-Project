@@ -1,0 +1,142 @@
+<!-- // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) -->
+
+<!-- /* Developed by Manasa Mohan kumar*/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Dashboard | Sign In</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/svg/logo.svg" type="image/x-icon">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../../App.css">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../LandingPage/LandingPage.css">
+    <link rel="stylesheet" href="./Login.css">
+    <link rel="stylesheet" href="../Footer/MainFooter.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="../../components/Navbar/MainNavBar.css">
+    <link rel="stylesheet" href="../Dashboard/Dashboard.css">
+    <link rel="stylesheet" href="../Register/Register.css">
+</head>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<body>
+    <div class="register-container flex-column">
+
+
+        <nav class="navbar ">
+            <div class="navbar-content">
+                <a href="#" class=" ">
+                </a>
+                <a data-toggle="toggle-nav" data-target="#nav-items" href="#">
+                    <i data-feather="menu"></i>
+                </a>
+            </div>
+            <div id="nav-items" class="navbar-menu hidden  md-justify-end ">
+                <a href="/#home" class="navbar-menu-item">Home</a>
+                <a href="/#about" class="navbar-menu-item">About</a>
+                <a href="#services" class="navbar-menu-item">Services</a>
+                <a href="#blog" class="navbar-menu-item">Blog</a>
+                <a href="#contact-us" class="navbar-menu-item">Contact</a>
+                <a href="/login" class="navbar-menu-item">Login</a>
+                <a href="/register" class="primary-default-button">Register</a>
+            </div>
+        </nav>
+
+
+        <div class="register-section">
+            <div class="register-card">
+                <h1 class="register-title">Register</h1>
+                <form class="register-form" class="needs-validation " action="" method="post">
+                    <div class="flex-row">
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">First Name</p>
+                            <input type="text" placeholder="Enter your email" name="name" required />
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Last Name</p>
+                            <input type="text" placeholder="Enter your email" required />
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Date of birth</p>
+                            <input type="date" placeholder="Enter your email" required />
+                        </label>
+                        <label class="register-form-select-label-wrapper">
+                            <p class="register-form-select-label">Gender</p>
+                            <select class="register-form-select">
+                                <option value="0">Select gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Street 1</p>
+                            <input type="text" placeholder="Enter your email" required />
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Street 2</p>
+                            <input type="text" placeholder="Enter your email" />
+                        </label>
+
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Phone number</p>
+                            <input type="number" placeholder="Enter your password" />
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Email</p>
+                            <input type="email" placeholder="Enter your password" />
+                        </label>
+                        <label class="register-form-select-label-wrapper">
+                            <p class="register-form-select-label">Type of user</p>
+                            <select class="register-form-select">
+                                <option value="0">Select user type</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Password</p>
+                            <input type="password" placeholder="Enter your password" />
+                        </label>
+                        <label class="custom-form-label-wrapper">
+                            <p class="custom-form-label">Retype Password</p>
+                            <input type="password" placeholder="Enter your password" />
+                        </label>
+                    </div>
+
+
+                    <button class="register-form-btn primary-default-button " onclick="postUser">Sign up</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container footer--flex">
+                <div class="footer-start">
+                    <p><a>SIREMAR</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("F6SSSCyg2eiw9FOqi");
+    })();
+</script>
+
+</html>

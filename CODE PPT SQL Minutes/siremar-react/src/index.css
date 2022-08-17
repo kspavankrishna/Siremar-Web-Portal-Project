@@ -1,0 +1,51 @@
+/* // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) */
+
+
+/* Developed by Manasa Mohan Kumar */
+:root {
+
+  --font-primary: 'Open Sans', sans-serif;
+
+  --color-primary: rgba(33, 49, 100, 0.9);
+  --color-black: black;
+  --color-gray: #18181a;
+  --color-white: white;
+  --color-green: rgb(183, 228, 183);
+  --bg-color:black;
+  --text-color:white;
+  --color-secondary: rgb(24, 24, 26);
+  --color-default-gradient: linear-gradient(0deg, rgba(33, 49, 100, 0.9), white);
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+ 
+  width: 100%;
+  height: 100%;
+  color: var(--color-black);
+}
+
+/* .dark-mode body{
+  background-color: #1a1919;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+} */
+
+/* .light-mode body{
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+} */
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}

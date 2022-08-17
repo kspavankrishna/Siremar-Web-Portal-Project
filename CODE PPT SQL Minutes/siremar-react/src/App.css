@@ -1,0 +1,291 @@
+/* // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) */
+
+
+/* Developed by Manasa Mohan Kumar */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form {
+  width: 100%;
+  padding: 35px 20px 35px 20px;
+}
+
+.form-label-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.custom-form-label-wrapper {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 5px;
+  flex: 0 0 33.333333%;
+}
+
+.form-label {
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.custom-form-label {
+  font-size: 17px;
+  line-height: 2.43;
+  color: var(--text-color);
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.save-form-btn {
+  width: 20%;
+  margin: 8px;
+  display: flex;
+  margin-top: 10%;
+  background-color: black;
+  border-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.save-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+label {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 1px;
+}
+
+.header {
+  color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.p-relative {
+  position: relative;
+}
+
+input {
+  border-radius: 6px;
+  background-color: #eff0f6;
+  border-width: 0;
+  min-height: 40px;
+  border: solid transparent 2px;
+}
+
+input::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+input::-moz-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+input::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+input:focus {
+  outline: none;
+  border: rgba(134, 182, 254, 0.5) solid;
+  -webkit-box-shadow: 0 0 0 2px rgba(134, 182, 254, 0.5);
+  box-shadow: 0 0 0 2px rgba(134, 182, 254, 0.5);
+}
+
+.primary-default-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.primary-default-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-btn {
+  color: #b9b9b9;
+}
+
+.dropdown {
+  position: absolute;
+  padding: 5px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px -2px 24px rgba(160, 163, 189, 0.25);
+  box-shadow: 0px -2px 24px rgba(160, 163, 189, 0.25);
+  border-radius: 4px;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: 3;
+}
+
+.dropdown::before {
+  content: '';
+  position: absolute;
+  right: 6px;
+  top: -10px;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.dropdown li:last-child a {
+  border-width: 0;
+}
+
+.dropdown a {
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #767676;
+  border-bottom: 1px solid #EEEEEE;
+  text-align: left;
+}
+
+.dropdown a:hover {
+  color: var(--color-primary);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  background: var(--color-secondary);
+  box-shadow: 0 15px 15px var(--bg-color);
+  border-radius: 20px;
+  margin: 30px 10px 10px 10px;
+}
+
+/* responsiveness for phone */
+@media only screen and (max-width:480px) {
+
+  .form-label {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
