@@ -1,0 +1,92 @@
+<!-- // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) -->
+
+<!-- /* Developed by Manasa Mohan Kumar */ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Dashboard | Sign In</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/svg/logo.svg" type="image/x-icon">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../../App.css">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../LandingPage/LandingPage.css">
+    <link rel="stylesheet" href="./Login.css">
+    <link rel="stylesheet" href="../Footer/MainFooter.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="../Navbar/MainNavBar.css">
+    <link rel="stylesheet" href="../Dashboard/Dashboard.css">
+</head>
+
+<body>
+    <div class="login-container flex-column">
+       
+        
+
+        <nav class="navbar ">
+            <div class="navbar-content">
+                <a href="#" class=" ">
+                </a>
+                <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                    class="    -lighter     ">
+                    <i data-feather="menu"></i>
+                </a>
+            </div>
+            <div id="nav-items" class="navbar-menu hidden  sm- md-  md-justify-end ">
+                <a href="/#home" class="navbar-menu-item">Home</a>
+                <a href="/#about" class="navbar-menu-item">About</a>
+                <a href="#services" class="navbar-menu-item">Services</a>
+                <a href="#blog" class="navbar-menu-item">Blog</a>
+                <a href="#contact-us" class="navbar-menu-item">Contact</a>
+                <a href="/login" class="navbar-menu-item">Login</a>
+                <a href="/register" class="primary-default-button">Register</a>
+            </div>
+        </nav>
+
+
+        <div class="background-video-container">
+            <video autoPlay muted loop class="login-video">
+                <source src={video + clipper} type="video/ogv" />
+                <source src={video2 + clipper} type="video/mp4" />
+                <source src={video3 + clipper} type="video/webm" />
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="login-card">
+            <div class="login-form">
+                <h1 class="login-title">Login</h1>
+                <form class="form" action="" method="">
+                    <label class="form-label-wrapper">
+                        <p class="form-label">Email</p>
+                        <input  type="email" placeholder="Enter your email" required />
+                    </label>
+                    <label class="form-label-wrapper">
+                        <p class="form-label">Password</p>
+                        <input  type="password" placeholder="Enter your password" required />
+                    </label>
+
+
+                    <button class="login-btn primary-default-button">Sign in</button>
+                </form>
+            </div>
+        </div>
+
+     <footer class="footer">
+                <div class="container footer--flex">
+                    <div class="footer-start">
+                        <p><a >SIREMAR</a></p>
+                    </div>
+                </div>
+            </footer>
+
+    </div>
+
+</body>
+
+</html>

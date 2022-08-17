@@ -1,0 +1,50 @@
+/* // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) */
+
+
+/* Developed by Manasa Mohan Kumar */
+#pie-chart-container {
+    display: flex;
+    align-items: center;
+}
+
+#pie-chart {
+    background: conic-gradient(white 0.00%, var(--color-gray) 0.00% 41.6667%, var(--color-green) 41.6667% 83.3333%, var(--color-primary) 58.3333%);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#legenda {
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+}
+
+.entry-color {
+    height: 10px;
+    width: 10px;
+}
+
+.entry-text {
+    margin-left: 5px;
+}
+
+
+#color-green {
+    background-color: rgb(183, 228, 183)
+}
+
+#color-primary {
+    background-color: var(--color-primary);
+}
+
+#color-gray {
+    background-color: var(--color-gray);
+}

@@ -1,0 +1,74 @@
+/* // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) */
+
+/* Developed by Manasa Mohan Kumar */
+.login-video {
+  background-attachment: fixed;
+  position: absolute;
+  bottom: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  filter: blur(6px);
+}
+
+.login-card {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  width: 40%;
+  min-height: 430px;
+  margin-top: 130px;
+  background: var(--color-default-gradient);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  /* animation: slide-right 0.5s;
+  animation-fill-mode: forwards; */
+}
+
+@keyframes slide-right {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 30%;
+  }
+}
+
+.login-form {
+  padding: 2rem 0 0 0;
+  width: 100%;
+}
+
+.login-title {
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--color-black)
+}
+
+.login-btn {
+  margin-top: 25px;
+  width: 100%;
+}
+
+
+/* responsiveness for phone */
+@media only screen and (max-width:480px) {
+.login-card {
+  width: 80%;
+  min-height: 340px;
+  margin-bottom: 60px;
+  margin-top: 110px;
+}
+.login-title {
+  font-size: 20px;
+}
+
+.form-label {
+    font-size: 15px;
+}
+
+}

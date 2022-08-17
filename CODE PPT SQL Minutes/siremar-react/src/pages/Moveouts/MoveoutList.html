@@ -1,0 +1,238 @@
+<!-- // Manasa Mohan kumar (1001869268)
+// K S Pavan Krishna (1001935714)
+// Nishank Girish Gujar (1001861756) -->
+
+<!-- /* Developed by K S Pavan Krishna */ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Dashboard | Sign In</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/svg/logo.svg" type="image/x-icon">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="../../App.css">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../LandingPage/LandingPage.css">
+    <link rel="stylesheet" href="./Login.css">
+    <link rel="stylesheet" href="../Footer/MainFooter.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="../Navbar/MainNavBar.css">
+    <link rel="stylesheet" href="../Navbar/NavBar.css">
+    <link rel="stylesheet" href="../Dashboard/Dashboard.css">
+    <link rel="stylesheet" href="../County/CountyList.css">
+    <link rel="stylesheet" href="../Sidebar/Sidebar.css">
+</head>
+
+<body>
+    <div class="layer">
+        <div class="flex-container">
+            <aside class="sidebar">
+                <div class="">
+                    <div class="sidebar-head">
+                        <a href="/dashboard" class="logo-wrapper" title="Home">
+                            <div class="logo-text">
+                                <span class="logo-title">Siremar</span>
+                                <span class="logo-subtitle">Dashboard</span>
+                            </div>
+                        </a>
+                        <button class="sidebar-toggle transparent-btn" title="Menu" type="button"
+                            onClick={this.handleClick}>
+                            <span class="icon menu-toggle"></span>
+                        </button>
+                    </div>
+                    <div class="sidebar-body">
+                        <ul class="sidebar-body-menu">
+                            <li>
+                                <a class="active" href="/dashboard"><span class="icon home"
+                                        aria-hidden="true"></span>Dashboard</a>
+                            </li>
+                            <ul>
+                                <li>
+                                    <a href="/residents">
+                                        <span class="icon user-3"></span>Residents
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/county">
+                                        <span class="icon county"></span>County
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/inspector">
+                                        <span class="icon inspector"></span>Inspector
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/school">
+                                        <span class="icon school"></span>School
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/clinics">
+                                        <span class="icon clinic"></span>Clinics
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/businesses">
+                                        <span class="icon business"></span>Businesses
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/flights">
+                                        <span class="icon flight"></span>Flights
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/ferry">
+                                        <span class="icon ferry"></span>Ferry
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/events">
+                                        <span class="icon event"></span>Flights
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Reschat">
+                                        <span class="icon messages"></span>Ferry
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <a href="##" class="sidebar-user">
+                        <span class="sidebar-user-img">
+                           
+                        </span>
+                        <div class="sidebar-user-info">
+                            <span class="sidebar-user__title">User 1</span>
+                            <span class="sidebar-user__subtitle">Admin</span>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+            <div class="main-wrapper">
+                <nav class="main-nav--bg">
+                    <div class="container main-nav">
+                        <div class="main-nav-start">
+                            <div class="search-wrapper">
+                                <i data-feather="search" aria-hidden="true"></i>
+                                <input type="text" placeholder="Enter keywords ..." required />
+                            </div>
+                        </div>
+                        <div class="main-nav-end">
+                            <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
+                               
+                                <span class="icon menu-toggle--gray" aria-hidden="true"></span>
+                            </button>
+
+                            <button class="theme-switcher gray-circle-btn" type="button" title="Switch theme">
+                               
+                                <i class="sun-icon" data-feather="sun" aria-hidden="true"></i>
+                                <i class="moon-icon" data-feather="moon" aria-hidden="true"></i>
+                            </button>
+
+                            <div class="nav-user-wrapper">
+                                <button href="##" class="nav-user-btn dropdown-btn" title="My profile" type="button"
+                                    onClick={this.handleClick}>
+
+                                    <span class="nav-user-img">
+                                        <picture>
+                                            <source srcset="./img/avatar/avatar-illustrated-02.webp"
+                                                type="image/webp" /><img src="./img/avatar/avatar-illustrated-02.png"
+                                                alt="User name" />
+                                        </picture>
+                                    </span>
+                                </button>
+                                <ul class="users-item-dropdown nav-user-dropdown dropdown">
+                                    <li><a href="##">
+                                            <i data-feather="user" aria-hidden="true"></i>
+                                            <span>Profile</span>
+                                        </a></li>
+                                    <li><a href="##">
+                                            <i data-feather="settings" aria-hidden="true"></i>
+                                            <span>Account settings</span>
+                                        </a></li>
+                                    <li><a class="danger" href="/login">
+                                            <i data-feather="log-out" aria-hidden="true"></i>
+                                            <span>Log out</span>
+                                        </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+
+
+                <main class="main users chart-page" id="skip-target">
+                    <div class="page-container">
+                        <div class="flex-column">
+                            <h1 class="page-title">Moveouts</h1>
+                            <button class="button" onclick='myFun()'>Add New Moveout</button>
+                        </div>
+                        <div class="page-card">
+                            <div class="users-table table-wrapper">
+
+                                <CustomTable class="posts-table">
+                                    <thead class="table-head-wrapper">
+                                        <tr>
+                                            <th class="table-head">Name</th>
+                                            <th class="table-head">Move out date</th>
+                                            <th class="table-head">Move out Address</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Resident 1</td>
+                                            <td>04/7/2021</td>
+                                            <td>Arlington,Texas,76012</td>
+                                            <td>
+                                                <ul>
+                                                    <a href="##" class="icon table-action edit"></a>
+                                                    <a href="##" class="icon table-action delete"></a>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Resident 2</td>
+                                            <td>04/7/2021</td>
+                                            <td>Arlington,Texas,76010</td>
+                                            <td>
+                                                <ul>
+                                                    <a href="##" class="icon table-action edit"></a>
+                                                    <a href="##" class="icon table-action delete"></a>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <footer class="footer">
+                            <div class="container footer--flex">
+                                <div class="footer-start">
+                                    <p> <a rel="noopener noreferrer">SIREMAR</a></p>
+                                </div>
+                                <ul class="footer-end">
+                                </ul>
+                            </div>
+                        </footer>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
